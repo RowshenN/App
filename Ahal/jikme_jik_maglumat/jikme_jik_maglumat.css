@@ -1,0 +1,41 @@
+.maglumat2_container {
+    width: 100%;
+}
+
+.maglumat2_header {
+    text-align: center;
+    font-weight: 600;
+    font-size: 27px;
+    line-height: 40px;
+    letter-spacing: 1.2px;
+    color: #161616;
+}
+
+.table_container {
+    max-width: 100%;
+    overflow-x: auto;
+}
+
+table {
+    width: 100%;
+    background-color: #eee;
+    color: #161616;
+    margin-bottom: 35px;
+}
+
+ tr:nth-of-type(2n) {
+    background-color: rgba(91, 124, 207, 0.2);
+    color: #161616;
+}
+
+table th,td {
+    text-align: center;
+    background-color: rgba(91, 124, 207, 0.2);
+    color: #161616;
+    font-size: 22px;
+    padding: 10px 5px;
+}
+
+.color_red {
+    color: red;
+}

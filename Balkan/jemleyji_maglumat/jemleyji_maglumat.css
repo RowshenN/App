@@ -1,0 +1,110 @@
+.jemleyji_container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.jemleyji_header {
+    text-align: center;
+    font-weight: 600;
+    font-size: 27px;
+    line-height: 40px;
+    letter-spacing: 1.2px;
+    color: #161616;
+}
+
+.jemleyji_table_container {
+    max-width: 100%;
+    overflow-x: auto;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    background-color: #eee;
+    color: #161616;
+    margin-bottom: 35px;
+}
+
+tr:nth-of-type(2n) {
+    background-color: rgba(91, 124, 207, 0.2);
+    color: #fff;
+}
+
+.jemleyji_th_name {
+    color: #161616;
+    background-color: rgba(94, 124, 199, 0.3);
+    padding: 1rem;
+    font-size: 26px;
+    text-align: left;
+    font-weight: 700;
+}
+
+.jemleyji_th {
+    padding: 1rem;
+    color: #161616;
+    font-size: 22px;
+    text-align: left;
+    font-weight: 600;
+    font-family: "";
+}
+
+.jemleyji_th_center {
+    padding: 1rem;
+    color: #161616;
+    font-size: 22px;
+    text-align: center;
+    font-weight: 600;
+    font-family: sans-serif;
+}
+
+.jemleyji_red_th {
+    padding: 1rem;
+    color: red;
+    font-size: 22px;
+    text-align: left;
+    font-weight: 600;
+    font-family: sans-serif;
+}
+
+.jemleyji_red_th_center {
+    padding: 1rem;
+    color: red;
+    font-size: 22px;
+    text-align: center;
+    font-weight: 600;
+    font-family: sans-serif;
+}
+
+@media only screen and (max-width: 1000px) {
+    /* .jemleyji_th::before {
+        padding-left: 0.75rem 1rem;
+        content: attr(data-cell);
+        display: grid;
+    } */
+}
+
+.jemleyji_td {
+    padding: 1rem;
+    color: #161616;
+    font-size: 22px;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.jemleyji_td_center {
+    text-align: center;
+    padding: 1rem;
+    color: #161616;
+    font-size: 22px;
+    font-weight: 500;
+    font-style: italic;    
+}
+
+.jemleyji_red_td_center {
+    text-align: center;
+    padding: 1rem;
+    color: red;
+    font-size: 22px;
+    font-style: italic;
+    font-weight: 400;
+}
