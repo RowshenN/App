@@ -6,10 +6,36 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lebap</title>
     <link rel="stylesheet" href="jikme_jik_maglumat.css">
+    <script src="../../main.js"></script>
 </head>
 <body>
     <main>
-        <a href="../lebap.html"><h1>Yza</h1></a>
+        <div id="moduls" class="moduls">
+            <div class="module">
+                <div onclick="closeModule()" class="module-close">X</div>
+
+                <div id="module-imgs" class="module-imgs">
+                    <div onclick="preveImg()" id="preveImg" class="module-left">&lt;</div>
+                    <div onclick="nextImg()"  id="nextImg" class="module-right">&gt;</div>
+                    <div id="m-imgs" class="m-imgs">
+                        <img id="m-img" src="../images/1.JPG" alt="">
+                    </div>
+                </div>
+                <div id="module-videos" class="module-videos">
+                    <div onclick="preveVideo()" class="module-left">&lt;</div>
+                    <div onclick="nextVideo()" class="module-right">&gt;</div>
+                    <div id="m-videos" class="m-videos">
+                        <video id="m-video" src="../videos/video.MP4" controls></video>
+                    </div>
+                </div>
+
+                <div class="module-footer">
+                    <div id="img-button" onclick="ShowImgs()">Surat</div>
+                    <div id="video-button" onclick="ShowVideos()">Wideo</div>
+                </div>
+            </div>
+        </div>
+        <a href="../lebap.html"><img style="width: 35px; height: 40px; object-fit: contain; padding: 10px 0px 0px 15px" src="../../images/back.png" alt=""></a>
         <div class="maglumat2_container">
             <h1 class="maglumat2_header">
                 «Türkmenistanyň Prezidentiniň obalaryň, şäherçeleriň, etraplardaky şäherleriň we etrap merkezleriniň 
@@ -64,7 +90,7 @@
                         <td>-</td>
                         <td>18,01</td>
                         <td>-</td>
-                        <td>Dowam edýär <br> Hassahana 2018-nji ýylda başlanyp, 57% gurluşyk işleri ýerine ýetirilip, lift enjamlaryny gurnama, timarlaýyş, kafel, lenolium, beton suwag, asma potologyň karkasyny dokamak işleri dowam edip, töleg resminamalary resmileşdirmek işleri alnyp barylýar.</td>
+                        <td onclick="openModule()">Dowam edýär <br> Hassahana 2018-nji ýylda başlanyp, 57% gurluşyk işleri ýerine ýetirilip, lift enjamlaryny gurnama, timarlaýyş, kafel, lenolium, beton suwag, asma potologyň karkasyny dokamak işleri dowam edip, töleg resminamalary resmileşdirmek işleri alnyp barylýar.</td>
                     </tr>
 
                     <tr>

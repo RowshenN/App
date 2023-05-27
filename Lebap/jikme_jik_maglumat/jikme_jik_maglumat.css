@@ -1,3 +1,129 @@
+.moduls {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 150vh;
+    margin: 0 auto;
+    background-color: #00000055;
+    /* display: flex; */
+    display: none;
+    justify-content: center; 
+    
+}
+
+.module{
+    position: relative;
+    top: 30px;
+    width: 70%; 
+    height: 80vh;
+    background-color: white;
+    border-radius: 12px;
+}
+
+.module-close {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-weight: 900;
+    cursor: pointer;
+    user-select: none;
+    width: 40px;
+    height: 40px;
+    border: 1px solid black;
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+}
+.module-left {
+    position: absolute;
+    top: 40vh;
+    left: 20px;
+    font-weight: 900;
+    z-index: 100; 
+    background-color: white;
+    color: #000;
+    border-radius: 100%;
+    width: 40px;
+    height: 40px;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 28px;
+    user-select: none;
+    cursor: pointer;
+}
+.module-right { 
+    right: 20px;
+    position: absolute;
+    top: 40vh; 
+    font-weight: 900;
+    z-index: 100; 
+    background-color: white;
+    color: #000;
+    border-radius: 100%;
+    width: 40px;
+    height: 40px;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 28px;
+    user-select: none;
+    cursor: pointer;
+}
+
+.module-footer{
+    display: inline-flex;
+    width: fit-content;
+    gap: 15px;
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    cursor: pointer;
+}
+
+.module-footer > div:first-child{ 
+    width: fit-content;
+    color: green;
+    font-family: sans-serif;
+}
+.module-footer> div:last-child{ 
+    width: fit-content;
+    font-family: sans-serif;
+}
+
+.module-imgs , .module-videos{
+    width: 100%;
+    height: auto;
+    display: inline-flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.m-imgs,.m-videos{
+    width: 100%;
+    height: auto;
+    display: inline-flex;
+    justify-content: center;
+}
+
+.m-imgs>img , .m-videos>video{
+    width: 90%;
+    height: 60vh;
+    object-fit: contain;
+
+}
+
+.module-videos{
+    display: none;
+}
+
+
+
+
+
 .maglumat2_container {
     width: 100%;
 }
